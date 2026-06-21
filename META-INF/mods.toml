@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[65,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="gourmetcraft"
+version="1.0.0"
+displayName="Gourmet Craft"
+authors="adityagadre"
+description='''A culinary expansion: real-world dishes, fantasy treats, and
+expanded vanilla foods — all edible, all craftable.'''
+
+[[dependencies.gourmetcraft]]
+    modId="forge"
+    mandatory=true
+    versionRange="[65,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.gourmetcraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[26.2,26.3,)"
+    ordering="NONE"
+    side="BOTH"
